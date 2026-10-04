@@ -1,0 +1,28 @@
+name: Process API submission
+on:
+  issues:
+    types: [opened, labeled]
+permissions:
+  contents: write
+  issues: write
+jobs:
+  review:
+    if: contains(github.event.issue.labels.*.name, 'submission') || contains(github.event.issue.title, 'API submission:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20}
+      - name: Validate and normalize submission
+        env: {ISSUE_BODY: ${{ github.event.issue.body }}, ISSUE_TITLE: ${{ github.event.issue.title }} }
+        run: node scripts/process-submission.mjs
+      - name: Commit accepted catalog changes
+        run: |
+          git config user.name "ApiVanta Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/apis.json
+          git diff --cached --quiet || (git commit -m "feat: add reviewed API submission" && git push)
+      - name: Label issue as processed
+        if: success()
+        uses: actions-ecosystem/action-add-labels@v1
+        with: {labels: processed}

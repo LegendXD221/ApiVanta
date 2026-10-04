@@ -1,0 +1,136 @@
+[
+  {
+    "id": "seed-jikan",
+    "name": "Jikan",
+    "category": "Anime",
+    "description": "Unofficial MyAnimeList API.",
+    "type": "REST",
+    "auth": "None",
+    "pricing": "Free",
+    "https": true,
+    "cors": "Yes",
+    "status": "online",
+    "base_url": "https://api.jikan.moe/v4",
+    "docs": "https://docs.api.jikan.moe/",
+    "website": "https://jikan.moe/",
+    "tags": [
+      "anime",
+      "manga",
+      "myanimelist"
+    ],
+    "source": "seed",
+    "source_url": "https://github.com/ApiVanta/ApiVanta",
+    "license": "See original API terms",
+    "discovered_at": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-open-meteo",
+    "name": "Open-Meteo",
+    "category": "Weather",
+    "description": "Free weather forecast API with no API key required.",
+    "type": "REST",
+    "auth": "None",
+    "pricing": "Free",
+    "https": true,
+    "cors": "Yes",
+    "status": "online",
+    "base_url": "https://api.open-meteo.com/v1/forecast",
+    "docs": "https://open-meteo.com/en/docs",
+    "tags": [
+      "weather",
+      "forecast"
+    ],
+    "source": "seed",
+    "source_url": "https://github.com/ApiVanta/ApiVanta",
+    "license": "See original API terms",
+    "discovered_at": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-rest-countries",
+    "name": "REST Countries",
+    "category": "Geocoding",
+    "description": "Country information including names, flags, currencies and regions.",
+    "type": "REST",
+    "auth": "None",
+    "pricing": "Free",
+    "https": true,
+    "cors": "Yes",
+    "status": "online",
+    "base_url": "https://restcountries.com/v3.1/all",
+    "docs": "https://restcountries.com/",
+    "tags": [
+      "countries",
+      "geography"
+    ],
+    "source": "seed",
+    "source_url": "https://github.com/ApiVanta/ApiVanta",
+    "license": "See original API terms",
+    "discovered_at": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-jsonplaceholder",
+    "name": "JSONPlaceholder",
+    "category": "Test Data",
+    "description": "Fake REST API for prototyping and testing.",
+    "type": "REST",
+    "auth": "None",
+    "pricing": "Free",
+    "https": true,
+    "cors": "Yes",
+    "status": "online",
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "docs": "https://jsonplaceholder.typicode.com/",
+    "tags": [
+      "testing",
+      "mock"
+    ],
+    "source": "seed",
+    "source_url": "https://github.com/ApiVanta/ApiVanta",
+    "license": "See original API terms",
+    "discovered_at": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-pokeapi",
+    "name": "Pok\u00e9API",
+    "category": "Games & Comics",
+    "description": "RESTful Pok\u00e9mon API with extensive game data.",
+    "type": "REST",
+    "auth": "None",
+    "pricing": "Free",
+    "https": true,
+    "cors": "Yes",
+    "status": "online",
+    "base_url": "https://pokeapi.co/api/v2",
+    "docs": "https://pokeapi.co/docs/v2",
+    "tags": [
+      "pokemon",
+      "games"
+    ],
+    "source": "seed",
+    "source_url": "https://github.com/ApiVanta/ApiVanta",
+    "license": "See original API terms",
+    "discovered_at": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-frankfurter",
+    "name": "Frankfurter",
+    "category": "Currency Exchange",
+    "description": "Free foreign exchange rates and conversion API.",
+    "type": "REST",
+    "auth": "None",
+    "pricing": "Free",
+    "https": true,
+    "cors": "Yes",
+    "status": "online",
+    "base_url": "https://api.frankfurter.app",
+    "docs": "https://www.frankfurter.app/docs/",
+    "tags": [
+      "currency",
+      "exchange"
+    ],
+    "source": "seed",
+    "source_url": "https://github.com/ApiVanta/ApiVanta",
+    "license": "See original API terms",
+    "discovered_at": "2026-10-04T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,43 @@
+name: API submission
+description: Suggest a public API for the ApiVanta catalog
+title: "API submission: "
+labels: [submission]
+body:
+  - type: input
+    id: name
+    attributes: {label: API name, description: Official API name}
+    validations: {required: true}
+  - type: textarea
+    id: description
+    attributes: {label: Description}
+    validations: {required: true}
+  - type: input
+    id: docs
+    attributes: {label: Documentation URL}
+    validations: {required: true}
+  - type: input
+    id: base_url
+    attributes: {label: Base URL}
+    validations: {required: true}
+  - type: input
+    id: category
+    attributes: {label: Category}
+    validations: {required: true}
+  - type: input
+    id: authentication
+    attributes: {label: Authentication}
+  - type: input
+    id: pricing
+    attributes: {label: Pricing}
+  - type: input
+    id: https
+    attributes: {label: HTTPS (yes/no)}
+  - type: input
+    id: website
+    attributes: {label: Official website}
+  - type: input
+    id: github
+    attributes: {label: GitHub URL}
+  - type: input
+    id: license
+    attributes: {label: License}

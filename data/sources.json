@@ -1,0 +1,26 @@
+[
+  {
+    "id": "apis-guru",
+    "name": "APIs.guru OpenAPI Directory",
+    "kind": "openapi",
+    "url": "https://api.apis.guru/v2/list.json",
+    "license": "CC0-1.0",
+    "enabled": true
+  },
+  {
+    "id": "public-apis-api",
+    "name": "Public APIs service",
+    "kind": "json-api",
+    "url": "https://api.publicapis.org/entries",
+    "license": "Apache-2.0",
+    "enabled": true
+  },
+  {
+    "id": "public-api-lists",
+    "name": "Public API Lists",
+    "kind": "json-api",
+    "url": "https://public-api-lists.github.io/public-api-lists/api/all.json",
+    "license": "MIT",
+    "enabled": true
+  }
+]
