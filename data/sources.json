@@ -22,5 +22,14 @@
     "url": "https://public-api-lists.github.io/public-api-lists/api/all.json",
     "license": "MIT",
     "enabled": true
+  },
+  {
+    "id": "community-public-apis",
+    "name": "Community Public APIs README",
+    "kind": "markdown-directory",
+    "url": "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
+    "license": "MIT",
+    "officiality": "unofficial",
+    "enabled": true
   }
 ]
