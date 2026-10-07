@@ -12,6 +12,7 @@ Free static API directory for `ApiVanta.de5.net`.
 - Adapter-based discovery under `scripts/sources/` for APIs.guru, Public APIs, and Public API Lists
 - Community-directory scraping for public Markdown/HTML API lists, with source attribution and an explicit `unofficial` flag for community-listed entries
 - Curated free-first providers for anime, music, movies, TV, and streaming metadata, including Jikan, AniList, Spotify, Last.fm, TMDB, and TVmaze
+- Streaming availability and watch-tracking providers including Streaming Availability API, Watchmode, and Simkl; these provide metadata, provider availability, or watch links—not copyrighted video playback or stream extraction
 - Static health checks and up to 30 observations per API under `data/health/`
 - Relevance search, category/auth/pricing/type/HTTPS filters, and sorting by name, response time, checked date, or added date
 - Categories, public statistics, PWA manifest, offline service worker, `sitemap.xml`, and `robots.txt`
