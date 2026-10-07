@@ -31,5 +31,13 @@
     "license": "MIT",
     "officiality": "unofficial",
     "enabled": true
+  },
+  {
+    "id": "featured-free",
+    "name": "Featured free-first entertainment providers",
+    "kind": "curated-directory",
+    "url": "https://github.com/LegendXD221/ApiVanta/blob/master/scripts/sources/featured-free.mjs",
+    "license": "Provider-specific terms",
+    "enabled": true
   }
 ]
