@@ -82,5 +82,11 @@
     "status": "online",
     "http_status": 200,
     "response_ms": 92
+  },
+  {
+    "checked_at": "2026-11-04T07:41:27.579Z",
+    "status": "offline",
+    "http_status": 0,
+    "response_ms": 7001
   }
 ]
