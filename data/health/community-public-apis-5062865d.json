@@ -1,11 +1,5 @@
 [
   {
-    "checked_at": "2026-11-01T07:52:01.422Z",
-    "status": "online",
-    "http_status": 200,
-    "response_ms": 241
-  },
-  {
     "checked_at": "2026-11-01T15:07:25.023Z",
     "status": "online",
     "http_status": 200,
@@ -178,5 +172,11 @@
     "status": "online",
     "http_status": 200,
     "response_ms": 80
+  },
+  {
+    "checked_at": "2026-11-14T19:24:23.181Z",
+    "status": "online",
+    "http_status": 200,
+    "response_ms": 110
   }
 ]
